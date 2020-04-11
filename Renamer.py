@@ -23,11 +23,7 @@ def main():
     # valor default de zeroFill es 3
     newFileName = input("nombre del archivo, vacio le pone nombre generico: ") or "archivo"
     zeroFill = input("cantidad de ceros, vacio deja un espacio de 3 ceros:") or 3
-    print("valores: ")
-    print(str(newFileName))
-    print(str(zeroFill))
-
-    
+    renamer(newFileName, zeroFill)
 
     #renamer(newFileName, zeroFill)
     print("Listo!")
